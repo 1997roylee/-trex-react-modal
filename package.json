@@ -1,10 +1,10 @@
 {
-  "name": "@trex/react-modal",
+  "name": "trex-react-modal",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "1997roylee",
   "license": "MIT",
-  "repository": "1997roylee/@trex/react-modal",
+  "repository": "1997roylee/-trex-react-modal",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
