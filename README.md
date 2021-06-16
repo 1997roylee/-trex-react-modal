@@ -1,20 +1,41 @@
-# @trex/react-modal
+# trex-react-modal
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@trex/react-modal.svg)](https://www.npmjs.com/package/@trex/react-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/trex-react-modal.svg)](https://www.npmjs.com/package/trex-react-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @trex/react-modal
+npm install --save trex-react-modal
 ```
 
 ## Usage
 
 ```jsx
 import React from 'react'
-import { useModal, createModal } from '@trex/react-modal'
+import { ChakraProvider } from '@chakra-ui/react'
+import { ModalProvider, ModalRoot } from 'trex-react-modal'
+import Child from './Child'
+
+const App = () => {
+    return (
+        <ChakraProvider>
+            <ModalProvider>
+            <Child/>
+                <ModalRoot />
+            </ModalProvider>
+        </ChakraProvider>
+    )
+}
+
+export default App
+```
+
+
+```jsx
+import React from 'react'
+import { useModal, createModal } from 'trex-react-modal'
 import { Container, Stack } from '@chakra-ui/layout'
 import { Button } from '@chakra-ui/button'
 

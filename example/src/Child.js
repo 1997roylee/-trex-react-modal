@@ -1,7 +1,7 @@
 // Child.js
 
 import React from 'react'
-import { useModal, createModal } from '@trex/react-modal'
+import { useModal, createModal } from 'trex-react-modal'
 import { Container, Stack } from '@chakra-ui/layout'
 import { Button } from '@chakra-ui/button'
 

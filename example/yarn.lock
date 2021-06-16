@@ -2153,7 +2153,7 @@
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
 
-"@trex/react-modal@link:..":
+"trex-react-modal@link:..":
   version "0.0.0"
   uid ""
 

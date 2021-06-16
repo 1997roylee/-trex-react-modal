@@ -1,6 +1,6 @@
 {
-  "short_name": "@trex/react-modal",
-  "name": "@trex/react-modal",
+  "short_name": "trex-react-modal",
+  "name": "trex-react-modal",
   "icons": [
     {
       "src": "favicon.ico",
